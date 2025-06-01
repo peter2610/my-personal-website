@@ -13,11 +13,12 @@
     <header>
       <nav>
         <div class="logo">
-          <a href="#hero">Peter Freelancer</a>
+          <a href="#hero"> Peter Freelancer</a>
         </div>
         <ul class="nav-links">
           <li><a href="#hero">Home</a></li>
           <li><a href="#about">About</a></li>
+          <li><a href="#hire">Hire me</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -41,7 +42,7 @@
           I am Peter, a passionate freelancer dedicated to creating impactful
           work.
         </p>
-        <a href="#about" class="btn">Learn More</a>
+        <a href="#about" class="btn">learn more</a>
       </div>
     </section>
 
@@ -59,11 +60,62 @@
           creative visuals. Constantly learning and evolving, I’m dedicated to
           crafting content and designs that make an impact.
         </p>
-        <a href="#skills" class="btn">Find Skills</a>
+        <a href="#hire" class="btn">uphold Assignment</a>
+      </div>
+    </section>
+
+    <!-- Hire Me Section -->
+    <section id="hire">
+      <div class="hire-content">
+        <h2>Hire Me</h2>
+
+        <button
+          class="btn"
+          onclick="document.getElementById('hireForm').style.display='block'"
+        >
+          Hire Me
+        </button>
+
+        <div id="hireForm" style="display: none; margin-top: 1em">
+          <form
+            action="mailto:petermunyambu1000@gmail.com"
+            method="POST"
+            enctype="multipart/form-data"
+          >
+            <label for="hireEmail">Your Email:</label><br />
+            <input
+              type="email"
+              id="hireEmail"
+              name="email"
+              required
+            /><br /><br />
+
+            <label for="fileUpload">Upload Your Work:</label><br />
+            <input
+              type="file"
+              id="fileUpload"
+              name="uploadedFile"
+              required
+            /><br /><br />
+
+            <label for="requirements">Assignment Instructions:</label><br />
+            <textarea
+              id="requirements"
+              name="instructions"
+              rows="4"
+              required
+            ></textarea
+            ><br /><br />
+
+            <input type="submit" value="Submit Request" />
+          </form>
+        </div>
+        <a href="#skills" class="btn">see skills</a>
       </div>
     </section>
 
     <!-- Skills Section -->
+
     <section id="skills">
       <div class="skills-content">
         <h2>Skills</h2>
@@ -73,7 +125,7 @@
           <li>Dissertation Support</li>
           <li>Research & Editing</li>
         </ul>
-        <a href="#projects" class="btn">See Projects</a>
+        <a href="#projects" class="btn">View Projects</a>
       </div>
     </section>
 
@@ -111,8 +163,7 @@
           <a href="projects/project 3.png" target="_blank">View Image</a> |
           <a href="projects/project 3.png" download>Download Image</a>
         </div>
-
-        <a href="#contact" class="btn">Contact Me</a>
+        <a href="#contact" class="btn">reach me</a>
       </div>
     </section>
 
@@ -144,6 +195,7 @@
       </div>
     </section>
     <hr />
+    <a href="">Back to top</a>
     <!-- Footer -->
     <footer class="moving-footer">
       <div class="ticker">

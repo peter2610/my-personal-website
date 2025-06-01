@@ -27,7 +27,7 @@ nav ul li a {
   color: white;
   text-decoration: none;
   padding: 10px 15px;
-  transition: background-color 0.3s ease;
+  
 }
 
 nav ul li a:hover {
@@ -39,9 +39,15 @@ nav ul li a:hover {
   font-size: 28px;
   font-weight: bold;
   text-decoration: none;
+  text-decoration: white;
   color: white;
   font-style: italic;
 }
+.logo a {
+  color: white;
+  text-decoration: none; /* optional: removes underline */
+}
+
 
 #hero {
   display: flex;
@@ -102,6 +108,16 @@ nav ul li a:hover {
 #about h2 {
   font-size: 1.8rem;
   margin-bottom: 20px;
+}
+#hire-me {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.hire-me-content {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
 }
 
 #skills {
