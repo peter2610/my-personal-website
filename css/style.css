@@ -40,3 +40,18 @@ nav ul li a{
 border-radius: 8px;
 
 }
+#about{
+   list-style: none;
+    margin: 20px;
+    padding: 0; 
+    line-height: 1.9ch;
+    display: flex;
+}
+
+
+#skills {
+    list-style: none;
+    margin: 20px;
+    padding: 0;
+    display: flex;
+}
