@@ -1,40 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
   <head>
-    <!--links-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--title-->
+    <title>Peter Freelancer</title>
     <link rel="stylesheet" href="./css/style.css" />
     <script src="./script/script.js" defer></script>
-    <!--title-->
-    <title>my-personal-website</title>
   </head>
   <body>
-    <!--Header/Navigation-->
+    <!-- Header / Navigation -->
     <header>
       <nav>
-        <div>
-          <a href="#hero" class="logo">Peter Freelancer</a>
+        <div class="logo">
+          <a href="#hero">Peter Freelancer</a>
         </div>
-        <ul>
+        <ul class="nav-links">
           <li><a href="#hero">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#contacts">Contacts</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
 
-    <!--Hero section-->
+    <!-- Hero Section -->
     <section id="hero">
       <div class="hero-image">
         <img
           src="images/webimage.jpg"
-          alt="workspace"
-          width="500px"
-          height="600px"
+          alt="Workspace setup"
+          width="500"
+          height="600"
         />
       </div>
       <div class="hero-content">
@@ -43,77 +41,114 @@
           I am Peter, a passionate freelancer dedicated to creating impactful
           work.
         </p>
-        <a href="#about" class="btn">learn more</a>
+        <a href="#about" class="btn">Learn More</a>
       </div>
     </section>
 
-    <!--About section-->
+    <!-- About Section -->
     <section id="about">
       <div class="about-content">
         <h2>About Me</h2>
-       <p>
-      I’m Peter, a passionate freelance writer and designer with a strong background in digital media and research.
-      I specialize in creating engaging articles, insightful blogs, and professional dissertations, alongside eye-catching book cover designs.
-      With a commitment to quality and deadlines, I work closely with individuals and businesses to bring their ideas to life through compelling storytelling and creative visuals.
-      My goal is to deliver work that not only meets but exceeds expectations, helping clients communicate effectively and stand out.
-      Constantly learning and evolving, I’m dedicated to crafting content and designs that make an impact.
-    </p>
+        <p>
+          I’m Peter, a passionate freelance writer and designer with a strong
+          background in digital media and research. I specialize in creating
+          engaging articles, insightful blogs, and professional dissertations,
+          alongside eye-catching book cover designs. With a commitment to
+          quality and deadlines, I work closely with individuals and businesses
+          to bring their ideas to life through compelling storytelling and
+          creative visuals. Constantly learning and evolving, I’m dedicated to
+          crafting content and designs that make an impact.
+        </p>
         <a href="#skills" class="btn">Find Skills</a>
       </div>
     </section>
 
-    <!--Skills section-->
+    <!-- Skills Section -->
     <section id="skills">
-        <div class="skills-content">
-            <h2>Skills</h2>
-                <ul>
-      <li>Article & Blog Writing</li>
-      <li>Book Cover Design</li>
-      <li>Dissertation Support</li>
-      <li>Research & Editing</li>
-      
-        <a href="#projects" class="btn">View Projects</a>
-        </div>
+      <div class="skills-content">
+        <h2>Skills</h2>
+        <ul>
+          <li>Article & Blog Writing</li>
+          <li>Book Cover Design</li>
+          <li>Dissertation Support</li>
+          <li>Research & Editing</li>
+        </ul>
+        <a href="#projects" class="btn">See Projects</a>
+      </div>
     </section>
 
-    <!--Projects section-->
-    <section id="Projects">
-        <div class="Projects-content">
-            <h2>Projects</h2>
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="projects-content">
+        <h2>Projects</h2>
 
-           <!-- Project 1 -->
-    <div class="project">
-      <a href="projects/project 1.pdf" target="_blank" class="project-title">Project 1: Postgraduate Dissertation</a>
-  <a href="projects/project 1.pdf" target="_blank">View PDF</a> |
-  <a href="projects/project 1.pdf" download>Download PDF</a>
-    </div>
-<br>
-    <!-- Project 2 -->
-    <div class="project">
-      <a href="projects/project 2.pdf" target="_blank" class="project-title">Project 2: Dissertation 2</a>
-  <br>
-  <a href="projects/project 2.pdf" target="_blank">View PDF</a> |
-  <a href="projects/project 2.pdf" download>Download PDF</a>
-    </div>
-<br>
-    <!-- Project 3 -->
-    <div class="project">
-      <a href="projects/project 3.png" target="_blank" class="project-title">
-    Project 3: Advertisement Post
-  </a>
-  <br>
-  <a href="projects/project 3.png" target="_blank">View Image</a> |
-  <a href="projects/project 3.png" download>Download Image</a>
-    </div>
-
-            <a href="#Contacts" class="btn">reach us/a>
+        <div class="project">
+          <h3>
+            <a href="projects/project 1.pdf" target="_blank"
+              >Project 1: Postgraduate Dissertation</a
+            >
+          </h3>
+          <a href="projects/project 1.pdf" target="_blank">View PDF</a> |
+          <a href="projects/project 1.pdf" download>Download PDF</a>
         </div>
+
+        <div class="project">
+          <h3>
+            <a href="projects/project 2.pdf" target="_blank"
+              >Project 2: Dissertation 2</a
+            >
+          </h3>
+          <a href="projects/project 2.pdf" target="_blank">View PDF</a> |
+          <a href="projects/project 2.pdf" download>Download PDF</a>
+        </div>
+
+        <div class="project">
+          <h3>
+            <a href="projects/project 3.png" target="_blank"
+              >Project 3: Advertisement Post</a
+            >
+          </h3>
+          <a href="projects/project 3.png" target="_blank">View Image</a> |
+          <a href="projects/project 3.png" download>Download Image</a>
+        </div>
+
+        <a href="#contact" class="btn">Contact Me</a>
+      </div>
     </section>
 
-    <!--contacts section-->
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="contact-content">
+        <h2>Contact Me</h2>
+        <p>
+          Have a project in mind or need support with writing or design? Feel
+          free to reach out.
+        </p>
+        <form
+          action="mailto:petermunyambu1000@gmail.com"
+          method="POST"
+          enctype="text/plain"
+        >
+          <label for="name">Name:</label><br />
+          <input type="text" id="name" name="name" required /><br /><br />
 
-    <!--footer-->
-    
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" required /><br /><br />
+
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message" rows="5" required></textarea
+          ><br /><br />
+
+          <input type="submit" value="Send Message" />
+        </form>
+      </div>
+    </section>
+    <hr />
+    <!-- Footer -->
+    <footer class="moving-footer">
+      <div class="ticker">
+        <p>© 2025 Peter Freelancer | Portfolio Website | All Rights Reserved</p>
+      </div>
+    </footer>
   </body>
-  <a href="">back to top</a>
 </html>
